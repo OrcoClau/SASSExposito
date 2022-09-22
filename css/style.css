@@ -176,8 +176,7 @@ h2 {
     }
 footer#foote {
     display: inline; 
-    text-align: center;
-    font-display: row;
+    text-align: center; 
 }
 form {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
