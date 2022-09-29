@@ -5,15 +5,16 @@
 }
 /* globales */
 body {
-    background-color: #ff7f50;
+    background-color: rgb(235, 235, 235);
     text-align: center;
     text-decoration: none;
 }
 #header {
-    background-color: coral;
+    background-color: rgb(235, 235, 235);
     padding: 30px;
     text-align: center;
     text-decoration: none;
+    grid-area: header;
 }
 #header .logo img {
     width: 400px;
@@ -40,8 +41,7 @@ body {
     background-color: rgba(255, 127, 80, 0.637);
 }
 /* index */
-#main {
-    margin-bottom: 20px;
+main#main {
     background-color: #ff7f50;
     padding: 20px;
     text-align: center;
@@ -60,6 +60,7 @@ body {
     background-color: rgb(221, 210, 59);
     border-style: hidden;
     font-weight: 50;
+    margin: 0px;
 }
 #talleres .boton {
     text-align: center;
@@ -68,29 +69,28 @@ body {
 #banner {
 text-align: right;
 }
-#footer {
+#foote {
     display: inline-flex;
+    grid-area: footer;
     width: 100%;
 }
-#footer .f1 a img {
-    width: 60px;
+.f1 a img {
+    width: auto;
     height: auto;
 }
-#footer .f2 a img {
-    width: 110px;
-    height: auto;
-}
-#footer .f3 img {
-    width: 60px;
+.f2 a img {
+    width: auto;
     height: auto;
 }
 #descuento {
     padding-bottom: 25px;
     text-align: center;
+    background-color: #EBEBEB;
 }
 #descuento h3 {
     background-color: aquamarine;
     font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
 }
 #descuento p {
     font-size: 25px;
@@ -103,17 +103,18 @@ text-align: right;
     height: 40px; 
     font-size: auto;
 }
+#footer {
+    background-color: #EBEBEB;
+    display: flex;
+    
+}
 #footer .f1 {
-    padding-top: 15px;
+    padding-top: 0px;
 }
 #footer .f3 {
-    display: inline;
-    padding-top: 20px;
-    padding-right: 15px;
-}
-#footer .f3 {
-    display: inline;
-   padding-left: 20px;
+text-align: center;
+height: 100%;
+width: 100%;
 }
 #header .sub ul li{
 font-size: x-large; 
@@ -131,6 +132,7 @@ margin: auto;
 }
 .talleresbody {
     text-align: center;
+    background-color: rgb(235, 235, 235);
 }
 .sub ul li a{
     text-decoration: none;
@@ -146,41 +148,34 @@ div.f3 p{
     display: inline;
     text-align: end;
 }
-form {
-    text-align: center;
-}
-
 .ta2 img {
     width: 426px;
     height: 426px; 
 }
-h3 {
-    color: #ff4400;
-    background-color: aliceblue;
-    margin: auto;
+.h3ins {
+    color: #395173;
+    background-color: #EBEBEB;
+    margin-bottom: 0px;
+    padding-left: 29px;
 }
-h2 {
-    padding-bottom: 20px;
+.h2con {
+    background-color: #EBEBEB;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 900px;
     font-size: 35px;
+    margin-bottom: 0px;
 }
-#foote .f1 a img {
-        width: 60px;
-    }
-#foote .f2 a img {
-        width: 110px;
-    }
-#foote .f3 img {
-        width: 60px;
-    }
-footer#foote {
-    display: inline; 
+#foote {
+    display: flex; 
     text-align: center; 
+    background-color: #EBEBEB;
 }
 form {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
+    background-color: #EBEBEB;
+    text-align: start;
+    grid-area: form;
 }
 .name {
     padding-right: 21px;
@@ -194,12 +189,32 @@ padding-bottom: 5px;
     padding-bottom: 30px;
 }
 .ulins {
-    background-color: rgb(163, 68, 68);
+    background: linear-gradient(to bottom, #EBEBEB 20%, #907BBB 80%);
     padding-top: 20px;
     padding-bottom: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 19px;
-    border: 1px solid coral;
     text-decoration: none;
     list-style: none;
 }
+html {
+    height: 100%;
+}
+.ppading {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.mail {
+    padding-left: 22px;
+}
+.comentarios {
+    text-align: justify;
+}
+.mapa {
+    display: grid ;
+    grid-area: mapa;
+}
+p {
+    margin: 0px;
+}
+

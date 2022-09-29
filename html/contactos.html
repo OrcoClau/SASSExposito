@@ -7,60 +7,67 @@
     <title>contactos</title>
     <link rel="stylesheet" href="../css/style.css">
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="grid-conteiner">
+    <nav class="navbar navbar-expand-lg bg-warning -xl">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../Index.html">Lindo Parpadeo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="../html/productos.html">Productos</a>
+              <a class="nav-link active" aria-current="page" href="../html/talleres.html">Talleres</a>
+              <a class="nav-link active" aria-current="page" href="../html/insumos.html">Insumos</a>
+              <a class="nav-link active" aria-current="page" href="../html/contactos.html">Contactos</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
     <header id="header">
         <div class="logo">
-        <img src="../img/logo.jpg" alt="logo">
+            <img src="../img/logo.png" alt="logo">
         </div>
-        <nav class="sub">
-            <ul><li><a href="../Index.html">Inicio</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./talleres.html">Talleres</a></li>
-                <li><a href="./insumos.html">Insumos</a></li>
-                <li><a href="./contactos.html">Contactos</a></li>
-            </ul>
-        </nav>
-    
         </header>
 
-<h2 class="h2con">Dejanos tus datos</h2>
 
-<form action="enviar.php">
-<div class="name">
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" placeholder="apellido y nombre">
+<div class="form">
+    <h2 class="h2con">Dejanos tus datos</h2>
+    <form action="enviar.php">
+        <div class="name">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="apellido y nombre">
+        </div>
+        <div class="mail">
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="mail" placeholder="asd@asd.com">
+        </div>
+        <div class="comentarios">
+            <label for="comentarios">Comentarios:</label>
+            <textarea name="" id="comentarios" cols="30" rows="10"></textarea>
+        </div>
+    </form>
 </div>
-<div class="mail">
-    <label for="mail">Email</label>
-    <input type="email" id="mail" name="mail" placeholder="asd@asd.com">
+<div class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10424.686989936183!2d-64.02510334925209!3d-39.03178084692238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ef99a303c214d3%3A0x9a56a36936db4b6a!2sCol.%20Julia%20y%20Echarren%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1664336517422!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
-<div class="comentarios">
-    <label for="comentarios">Comentarios:</label>
-    <textarea name="" id="comentarios" cols="30" rows="10"></textarea>
-</div>
-</form>
 
-<footer id="foote">
+<footer id="footer">
     <div class="f1">
         <a href="https://www.instagram.com/lindo.parpadeo/" target="_blank">
-            <img src="../img/instagram.png" alt="instagram">
+            <img src="../img/insta.png" alt="instagram">
         </a>
     </div>
     <div class="f2">
         <a href="...">
-            <img src="../img/whatsapp.png" alt="whatsapp">
+            <img src="../img/wasap.png" alt="">
         </a>
     </div>
     <div class="f3">
-        <img src="../img/gmail.png" alt="gmail">
-        <p>
-        <a href="...">casal.cecilia@gmail.com</a> 
-        </p>
-    </div>
-    <div class="f4">
         <p>lindo parpadeo 2022</p>
     </div>
 </footer>
