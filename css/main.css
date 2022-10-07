@@ -1,0 +1,146 @@
+/* globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+p {
+  margin: 0px;
+}
+
+/* index */
+body {
+  background-color: rgb(235, 235, 235);
+  text-align: center;
+  text-decoration: none;
+}
+
+#header {
+  background-color: rgb(235, 235, 235);
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+#header .logo img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#main {
+  background-color: #ff7f50;
+  padding: 20px;
+  text-align: center;
+  color: crimson;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+
+#talleres .titulo2 {
+  color: rgb(92, 158, 27);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 60px;
+  background-color: rgb(221, 210, 59);
+  border-style: hidden;
+  font-weight: 50;
+  margin: 0px;
+}
+
+.f1 a img {
+  width: auto;
+  height: auto;
+}
+
+.f2 a img {
+  width: auto;
+  height: auto;
+}
+
+#descuento {
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+}
+#descuento h3 {
+  background-color: rgb(127, 136, 255);
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px;
+}
+#descuento p {
+  font-size: 25px;
+  margin-bottom: 0;
+  line-height: 1.2;
+  background-color: rgb(221, 210, 59);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#footer {
+  background-color: rgb(235, 235, 235);
+  display: flex;
+}
+#footer .f1 {
+  padding-top: 0px;
+}
+#footer .f3 {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* insumos */
+.h3ins {
+  color: #395173;
+  background-color: rgb(235, 235, 235);
+  margin-bottom: 0px;
+  padding-left: 29px;
+}
+
+.ulins {
+  background: linear-gradient(to bottom, rgb(235, 235, 235) 20%, #907BBB 80%);
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 19px;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* talleres */
+.talleresbody {
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+}
+
+/* contactos */
+.h2con {
+  background-color: rgb(235, 235, 235);
+  font-weight: 900px;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+form {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  background-color: rgb(235, 235, 235);
+  display: block;
+}
+form .name {
+  padding-right: 21px;
+  padding-bottom: 5px;
+}
+form .mail {
+  padding-bottom: 5px;
+  padding-left: 22px;
+}
+form .comentarios {
+  padding-left: 12px;
+  padding-bottom: 30px;
+}/*# sourceMappingURL=main.css.map */

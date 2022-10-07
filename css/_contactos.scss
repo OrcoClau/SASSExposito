@@ -1,0 +1,25 @@
+/* contactos */
+.h2con {
+    background-color: $colorfondo;
+    font-weight: 900px;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    background-color: $colorfondo;
+    display: block;
+    .name {
+        padding-right: 21px;
+        padding-bottom: 5px;
+    }
+    .mail {
+        padding-bottom: 5px;
+        padding-left: 22px;
+    }
+    .comentarios {
+            padding-left: 12px;
+            padding-bottom: 30px;
+    }
+}

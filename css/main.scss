@@ -1,0 +1,19 @@
+/* globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+p {
+    margin: 0px;
+}
+
+@import 'variables';
+@import 'index';
+@import 'insumos';
+@import 'talleres';
+@import 'contactos';
+
